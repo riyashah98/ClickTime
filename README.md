@@ -13,4 +13,4 @@ The timer stops and on the same row, the stop time, timzeson, stop latitude, sto
 time elapsed is recorded onto the table 
 
 Reset Button:
-The time resets. 
+The time resets and the history table is cleared. 
