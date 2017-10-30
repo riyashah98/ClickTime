@@ -97,8 +97,8 @@ stop.onclick = function() {
 reset.onclick = function() {
     h1.textContent = "00:00:00";
     seconds = 0; minutes = 0; hours = 0;
-    for(int i = 1; i < startTable.rows.length; i++){
-        startTable.deleteRow(i);
-        stopTable.deleteRow(i);
+    while(startTable.rows.length > 1){
+        startTable.deleteRow(1);
+        stopTable.deleteRow(1);
     }
 }
